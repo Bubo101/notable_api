@@ -7,8 +7,8 @@ INSTALLATION & USE:
 -All dependencies should be installed (so skip this unless needed) but if django is not working: pip install django
 -Run python manage.py makemigrations
 -Run python manage.py migrate (this sets up the database)
--Run python manage.py createsuperuser
--Run python manage.py runserver (I suggest something like user:staff, pass:staff, can hit enter to skip the email entry and select "y" to confirm password even though it is a simple password)
+-Run python manage.py createsuperuser (I suggest something like user:staff, pass:staff, can hit enter to skip the email entry and select "y" to confirm password even though it is a simple password)
+-Run python manage.py runserver 
 
 -In a browser, travel to localhost:8000/admin/ and use your credentials
 -Add one or two doctor instances (and appointments if you'd like)
