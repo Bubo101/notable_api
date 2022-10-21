@@ -6,7 +6,7 @@ INSTALLATION & USE:
 -Open in VS code or other editor 
 -Activate virtual environment:
     `source .venv/bin/activate`
--All dependencies should be installed (so skip this unless need3ed) but if django is not working:
+-All dependencies should be installed (so skip this unless needed) but if django is not working:
     `pip install django`
 -Run `python manage.py makemigrations`
 -Run `python manage.py migrate` (this sest up the database)
